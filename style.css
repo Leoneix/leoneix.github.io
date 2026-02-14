@@ -1,0 +1,61 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #ffffff;
+  color: #111111;
+  font-family: Georgia, "Times New Roman", serif;
+  line-height: 1.7;
+}
+
+.container {
+  max-width: 800px;
+  margin: 80px auto;
+  padding: 0 20px;
+}
+
+header {
+  margin-bottom: 60px;
+}
+
+h1 {
+  font-size: 2.5rem;
+  font-weight: normal;
+  margin-bottom: 5px;
+}
+
+.subtitle {
+  font-style: italic;
+  margin-bottom: 10px;
+}
+
+h2 {
+  font-size: 1.4rem;
+  font-weight: normal;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 5px;
+  margin-bottom: 20px;
+}
+
+section {
+  margin-bottom: 50px;
+}
+
+.item {
+  margin-bottom: 25px;
+}
+
+h3 {
+  font-size: 1.1rem;
+  margin-bottom: 5px;
+}
+
+.meta {
+  font-size: 0.9rem;
+  color: #555;
+}
+
+footer {
+  margin-top: 60px;
+  font-size: 0.9rem;
+  color: #777;
+}
