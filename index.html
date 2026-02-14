@@ -8,6 +8,13 @@
   </head>
   <body>
     <div class="container">
+      <nav>
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#skills">Skills</a>
+        <a href="#contact">Contact</a>
+      </nav>
+
       <header>
         <h1>Partha Pratim Basak</h1>
         <p class="subtitle">Computer Science Undergraduate</p>
@@ -16,7 +23,7 @@
         </p>
       </header>
 
-      <section>
+      <section id="about">
         <h2>About</h2>
         <p>
           I am an undergraduate student in Computer Science currently in my 2nd
@@ -26,7 +33,7 @@
         </p>
       </section>
 
-      <section>
+      <section id="projects">
         <h2>Projects</h2>
 
         <div class="item">
@@ -35,22 +42,20 @@
             Learning Models
           </h3>
           <p>
-            Significant Wave Height Forecasting using comparative machine
-            learning approaches (Linear Regression, Random Forest, XGBoost, and
-            LSTM) on multivariate buoy data with proper time-series validation
-            and seasonal analysis.
+            Forecasting Significant Wave Height using Linear Regression, Random
+            Forest, XGBoost, and LSTM on multivariate buoy time-series data with
+            seasonal decomposition and proper validation.
           </p>
           <p class="meta">
-            Python · Tensorflow · Linear Regression · Random Forest · XGBoost ·
-            LSTM
+            Python · TensorFlow · Random Forest · XGBoost · LSTM
           </p>
         </div>
 
         <div class="item">
-          <h3>ocrProj</h3>
+          <h3>OCR Processing Pipeline</h3>
           <p>
-            A project to make machine readable pdfs along with other upcoming
-            features.
+            Automated pipeline for generating machine-readable PDFs with
+            extensible preprocessing modules.
           </p>
           <p class="meta">Python · Tesseract OCR · Poppler</p>
         </div>
@@ -58,21 +63,23 @@
         <div class="item">
           <h3>Sentix</h3>
           <p>
-            Multi-model sentiment analysis trained on Amazon product reviews.
+            Multi-model sentiment analysis system trained on Amazon review
+            datasets using classical and transformer-based approaches.
           </p>
-          <p class="meta">Python · VADER · RoBERTa transformer</p>
+          <p class="meta">Python · VADER · RoBERTa</p>
         </div>
 
         <div class="item">
-          <h3>LicensePlateDetector</h3>
+          <h3>License Plate Detector</h3>
           <p>
-            OpenCV to identify vehicle number plates and save them separately.
+            Computer vision system for vehicle number plate detection and
+            extraction.
           </p>
           <p class="meta">Python · OpenCV</p>
         </div>
       </section>
 
-      <section>
+      <section id="skills">
         <h2>Technical Skills</h2>
         <p>
           Python, Java, SQL, Machine Learning, Linear Algebra, Differential
@@ -80,7 +87,7 @@
         </p>
       </section>
 
-      <section>
+      <section id="contact">
         <h2>Contact</h2>
         <p>Email: parthapbasak06@gmail.com</p>
         <p>GitHub: github.com/leoneix</p>
@@ -91,5 +98,7 @@
         <p>© 2026 Partha Pratim Basak</p>
       </footer>
     </div>
+
+    <script src="script.js"></script>
   </body>
 </html>
